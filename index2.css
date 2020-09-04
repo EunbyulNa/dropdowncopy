@@ -1,0 +1,145 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+
+}
+
+#headerWrap{
+  height: 100px;
+  background-color: #373737;
+}
+
+.inner {
+
+ width: 1100px;
+ margin: auto;
+ height: 100px;
+ position: relative;
+}
+
+#headerWrap h1 {
+background: url('outbacklogo.png') no-repeat;
+text-indent: -9999px;
+position: absolute;
+top:29px;
+left:0;
+}
+
+#headerWrap h1 a {
+  display: block;
+  width: 118px;
+  height: 44px;
+}
+
+.gnb {
+
+padding-left: 270px;
+}
+
+.gnb > ul {
+
+
+}
+
+.gnb > ul::after {
+  display: block;
+  content: "";
+  clear: left;
+}
+
+
+
+.gnb >ul> li > a {
+  display: block;
+  line-height: 100px;
+  padding: 0 20px;
+  color: white;
+  font-family: arial 'sans-serif';
+  font-weight: bold;
+}
+
+.global-menu {
+  position: absolute;
+  right:0;
+  top:40px;
+}
+
+.global-menu ul {
+
+}
+
+.global-menu li {
+  float:left;
+
+}
+
+
+
+.global-menu a {
+  padding: 5px;
+  margin: 0 5px;
+color: #959595;
+font-family: "맑은 고딕";
+font-size: 12px;
+}
+
+.global-menu li:last-child a {
+  background:#bababa;
+  color: white;
+}
+
+
+.gnb > ul > li {
+float:left;
+position: relative;
+}
+
+.gnb > ul > li:hover .sub {
+  display: block;
+}
+
+ul.sub {
+  display: none;
+
+  position: absolute;
+  width: 150px;
+  padding: 25px;
+  background-color: rgba(0,0,0,0.6);
+}
+
+ul.sub a:hover {
+  color: gray;
+}
+.sub li {
+
+}
+
+.sub > li> a {
+white-space: nowrap;
+color: white;
+line-height: 2em;
+font-size: 13px;
+
+
+}
+
+
+#visual {
+
+  background: url('visual.jpg');
+  height: 900px;
+  background-position: center;
+
+
+}
